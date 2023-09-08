@@ -122,15 +122,15 @@ btn_send.addEventListener('click', () => {
   let articleFooter = document.createElement('div');
   articleFooter.className = 'note_article_footer';
   let share = document.createElement('img');
-  share.setAttribute('src', '../Assets/bxs-share.svg');
+  share.setAttribute('src', '.././Assets/bxs-share.svg');
   share.className = 'btn_share';
   articleFooter.appendChild(share);
   let pencil = document.createElement('img');
-  pencil.setAttribute('src', '../Assets/bx-pencil.svg');
+  pencil.setAttribute('src', './Assets/bx-pencil.svg');
   pencil.className = 'btn_pencil';
   articleFooter.appendChild(pencil);
   let trash = document.createElement('img');
-  trash.setAttribute('src', '../Assets/bxs-trash.svg');
+  trash.setAttribute('src', 'Assets/bxs-trash.svg');
   trash.className = 'btn_trash';
   articleFooter.appendChild(trash);
   article.appendChild(articleFooter);
