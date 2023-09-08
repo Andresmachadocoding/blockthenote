@@ -116,13 +116,13 @@ btn_send.addEventListener('click', () => {
   parrafo.innerText = document.getElementById('textarea').value;
   article.appendChild(parrafo);
   let menu = document.createElement('img');
-  menu.setAttribute('src', 'Assets/bx-menu.svg');
+  menu.setAttribute('src', './Assets/bx-menu.svg');
   menu.className = 'btn_menu';
   article.appendChild(menu);
   let articleFooter = document.createElement('div');
   articleFooter.className = 'note_article_footer';
   let share = document.createElement('img');
-  share.setAttribute('src', 'Assets/bxs-share.svg');
+  share.setAttribute('src', '/Assets/bxs-share.svg');
   share.className = 'btn_share';
   articleFooter.appendChild(share);
   let pencil = document.createElement('img');
