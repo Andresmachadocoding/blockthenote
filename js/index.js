@@ -116,7 +116,7 @@ btn_send.addEventListener('click', () => {
   parrafo.innerText = document.getElementById('textarea').value;
   article.appendChild(parrafo);
   let menu = document.createElement('img');
-  menu.setAttribute('src', '../Assets/bx-menu.svg');
+  menu.setAttribute('src', '../assets/bx-menu.svg');
   menu.className = 'btn_menu';
   article.appendChild(menu);
   let articleFooter = document.createElement('div');
